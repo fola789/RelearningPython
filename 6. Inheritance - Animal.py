@@ -35,6 +35,9 @@ class Snake(Animal):
 
 dog1 = Dog("labradore", "black", 4)
 dog2 = Dog("Saymoed", "blonde", 4)
-cat1 = Dog("Sphynx", "brown", 4)
-cat2 = Dog("tabby", "orange", 4)
+cat1 = Cat("Sphynx", "brown", 4)
+cat2 = Cat("tabby", "orange", 4)
 snake = Snake("Python", "Green", 0)
+
+print(dog1.speak())
+print(cat1.speak())
